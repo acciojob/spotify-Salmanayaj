@@ -7,15 +7,16 @@ public class Album {
     private String title;
     private Date releaseDate;
 
-    public Album(){
+    public Album(){    // default contsructor
 
     }
 
-    public Album(String title){
+    public Album(String title){     // user defined constructor
         this.title = title;
         this.releaseDate = new Date();
     }
 
+    // below is the getter and setter function
     public String getTitle() {
         return title;
     }

@@ -6,15 +6,16 @@ public class Artist {
     private String name;
     private int likes;
 
-    public Artist(){
+    public Artist(){     // default constructor.
 
     }
 
-    public Artist(String name){
+    public Artist(String name){    // user defined constructor
         this.name = name;
         this.likes = 0;
     }
 
+    // below is the getter and setter function
     public String getName() {
         return name;
     }

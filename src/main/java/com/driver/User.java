@@ -8,11 +8,11 @@ public class User {
 
     public User() {}
 
-    public User(String name, String mobile) {
+    public User(String name, String mobile) {  // constructor for name and mobile number.
         this.name = name;
         this.mobile = mobile;
     }
-
+ // below is the getter and setter function.
     public String getName() {
         return name;
     }

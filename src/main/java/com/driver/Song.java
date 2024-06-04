@@ -5,15 +5,16 @@ public class Song {
     private int length;
     private int likes;
 
-    public Song(){
+    public Song(){     // default constructor
 
     }
 
-    public Song(String title, int length){
+    public Song(String title, int length){     // user defined constructor
         this.title = title;
         this.length = length;
     }
 
+    // below is the getter and setter function
     public String getTitle() {
         return title;
     }
